@@ -439,6 +439,18 @@ p:last-child { margin-bottom: 0; }
   font-size: 0.85rem;
   color: rgba(255,255,255,0.6);
 }
+.footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin-bottom: 0.9rem;
+}
+.footer-legal a { font-size: 0.85rem; }
+
+/* Legal pages */
+.legal-content { max-width: 760px; }
+.legal-content h2 { margin-top: 2.25rem; }
+.legal-content h2:first-child { margin-top: 0; }
 
 @media (max-width: 600px) {
   .cta-row { flex-direction: column; align-items: stretch; }
