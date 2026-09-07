@@ -452,6 +452,87 @@ p:last-child { margin-bottom: 0; }
 .legal-content h2 { margin-top: 2.25rem; }
 .legal-content h2:first-child { margin-top: 0; }
 
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-bottom: 1rem;
+}
+.breadcrumbs a { color: var(--color-text-light); font-weight: 600; }
+.breadcrumbs a:hover { color: var(--color-accent); }
+.breadcrumbs .sep { margin: 0 0.4rem; opacity: 0.6; }
+.breadcrumbs .current { color: var(--color-text); }
+.hero .breadcrumbs { color: rgba(255,255,255,0.75); margin-bottom: 1.25rem; }
+.hero .breadcrumbs a { color: rgba(255,255,255,0.9); }
+.hero .breadcrumbs a:hover { color: var(--color-white); }
+
+/* FAQ accordion (native details/summary, no JS) */
+.faq-list {
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.faq-list details {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+}
+.faq-list summary {
+  font-weight: 700;
+  color: var(--color-primary);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after {
+  content: "+";
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { margin-top: 0.75rem; color: var(--color-text-light); }
+
+/* Blog */
+.blog-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+.blog-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.6rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.blog-card .blog-date {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-accent-dark);
+  font-weight: 700;
+}
+.blog-card h3 { margin-bottom: 0; }
+.blog-card p { color: var(--color-text-light); }
+.blog-card .read-more { font-weight: 700; color: var(--color-primary); }
+.blog-card .read-more:hover { color: var(--color-accent); }
+.post-meta {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-bottom: 0.5rem;
+}
+
 @media (max-width: 600px) {
   .cta-row { flex-direction: column; align-items: stretch; }
   .cta-row .btn { justify-content: center; }
