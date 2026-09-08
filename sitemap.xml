@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.malerei-basel.ch/index.html</loc>
     <lastmod>2026-09-02</lastmod>
@@ -98,24 +98,40 @@
   </url>
   <url>
     <loc>https://www.malerei-basel.ch/innenanstrich.html</loc>
+    <image:image>
+      <image:loc>https://www.malerei-basel.ch/images/services/innenanstrich-basel-maler-streicht-wand.webp</image:loc>
+      <image:title>Maler streicht eine Innenwand in einer hellen Basler Wohnung</image:title>
+    </image:image>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.malerei-basel.ch/fassadenanstrich.html</loc>
+    <image:image>
+      <image:loc>https://www.malerei-basel.ch/images/services/fassadenanstrich-basel-maler-auf-geruest.webp</image:loc>
+      <image:title>Maler streicht auf einem Gerüst die Fassade eines historischen Hauses</image:title>
+    </image:image>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.malerei-basel.ch/gipser-spachtelarbeiten.html</loc>
+    <image:image>
+      <image:loc>https://www.malerei-basel.ch/images/services/gipser-spachtelarbeiten-basel-nahaufnahme.webp</image:loc>
+      <image:title>Gipser glättet frischen Spachtel an einer Wand</image:title>
+    </image:image>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.malerei-basel.ch/umzugsmalerei.html</loc>
+    <image:image>
+      <image:loc>https://www.malerei-basel.ch/images/services/umzugsmalerei-basel-frisch-gestrichene-wohnung.webp</image:loc>
+      <image:title>Frisch gestrichene, leere Wohnung mit Umzugskartons</image:title>
+    </image:image>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
